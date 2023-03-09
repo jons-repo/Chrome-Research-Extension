@@ -8,7 +8,7 @@ The inspiration to work on this project came from my lousy browsing habits. I'd 
 
 ## Installing
 
-* Download the folder from Github and remember where you save it.
+* Download and unpack the folder from Github and remember where you save it.
 * Type ```chrome://extensions/``` into the Chrome search bar.
 * Enable Developer Mode in the top left.
 * Click ```Load Unpacked``` and select the folder you saved.
