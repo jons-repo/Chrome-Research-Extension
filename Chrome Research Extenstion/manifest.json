@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Research Extension",
+  "description": "An extension to help save text and search it",
+  "version": "1.0",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "contextMenus"
+  ],
+  "action": {
+    "default_popup": "popout.html",
+    "default_icon": "image.png"
+  }
+}

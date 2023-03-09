@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Research Extension</title>
+  <style>
+    body {
+      width: 300px;
+    }
+
+    .search-items,
+    .search-items li {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .search-items li {
+      padding: 10px;
+      border-bottom: 2px solid grey;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .search-items li:hover {
+      background: rgba(0, 0, 0, 0.25);
+    }
+
+    .search-items li.done .item {
+      text-decoration: line-through;
+    }
+
+    .search-items div span {
+      margin: 5px;
+      font-size: 1em;
+      cursor: pointer;
+    }
+
+    .new-item {
+      display: none;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Saved Entries</h1>
+
+  <button class="create-search">New Item</button>
+  <div class="new-item">
+    <input type="text" />
+    <button>Save</button>
+  </div>
+
+  <ul class="search-items">
+  </ul>
+
+  <script src="popout.js"></script>
+</body>
+
+</html>
